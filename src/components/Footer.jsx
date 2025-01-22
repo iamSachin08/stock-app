@@ -8,8 +8,8 @@ import { NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
-        <section className='flex items-center bg-white w-[28rem] h-[5rem] gap-5 pl-3 rounded-b-[1.7rem] border border-red-700'>
-            <div className="tabs border border-blue-400 flex w-[26rem] justify-between gap-1 font-sans font-medium text-xs">
+        <section className='flex items-center bg-white w-[28rem] h-[5rem] gap-5 pl-3 rounded-b-[1.7rem] border-[0.063rem] border-t-[#E2E2E2]'>
+            <div className="tabs  flex w-[26rem] justify-between gap-1 font-sans font-medium text-xs">
                 <div className='flex flex-col items-center'>
                     <img src={homeIcon} alt="home" />
                     <span>HOME</span>
