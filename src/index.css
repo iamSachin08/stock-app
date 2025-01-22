@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tilted-edge {
+    @apply bg-gradient-to-r from-blue-600 to-green-400 text-white px-5 py-2 font-semibold;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
