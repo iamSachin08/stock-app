@@ -1,6 +1,98 @@
 import React from "react";
 import searchIcon from "../../assets/searchIcon.svg";
 import ioIcon from "../../assets/bx_sort.svg";
+import unDownIcon from "../../assets/bx_sort-alt-2.svg";
+import spotifyIcon from "../../assets/Ellipse 8.svg";
+import tataIcon from "../../assets/image 1.svg";
+
+import StockCard from "../custom-components/StockCard";
+
+const StockContests = [
+  {
+    title: "Spotify",
+    img_src:spotifyIcon,
+    desc: "SPOT ",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Tata Motors",
+    img_src:tataIcon,
+    desc: "TATA",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Spotify",
+    img_src:spotifyIcon,
+    desc: "SPOT ",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Tata Motors",
+    img_src:tataIcon,
+    desc: "TATA",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Spotify",
+    img_src:spotifyIcon,
+    desc: "SPOT ",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Tata Motors",
+    img_src:tataIcon,
+    desc: "TATA",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Spotify",
+    img_src:spotifyIcon,
+    desc: "SPOT ",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Tata Motors",
+    img_src:tataIcon,
+    desc: "TATA",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Spotify",
+    img_src:spotifyIcon,
+    desc: "SPOT ",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  
+  
+  
+];
 
 const MyStocks = () => {
   return (
@@ -25,7 +117,39 @@ const MyStocks = () => {
           </button>
         </div>
       </div>
-      <div className="w-[100%] h-[3.125] bg-[#F9F9F9] ">hi</div>
+
+      <div className="  bg-[#F9F9F9] flex items-center justify-around py-3 gap-6 ">
+        <button className="text-[1rem] flex items-center  ">
+          Company Name
+          <img src={unDownIcon} alt="" />
+        </button>
+
+        <button className="text-[1rem] flex items-center  ">
+        ID Change
+        <img src={unDownIcon} alt="" />
+      </button>
+      <button className="text-[1rem] flex items-center  ">
+        Price
+        <img src={unDownIcon} alt="" />
+      </button>
+      </div>
+      
+      
+     <div>
+        {StockContests.map((challenge, index) => (
+          <StockCard key={index} data={challenge} index={index} />
+        ))}
+      </div>  
+      
+
+      
+
+
+
+
+     
+
+
     </section>
   );
 };
