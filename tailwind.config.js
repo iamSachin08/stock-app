@@ -14,6 +14,19 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.scrollbar-none': {
+          scrollbarWidth: 'none', /* Firefox */
+        },
+        '.scrollbar-hidden': {
+          '&::-webkit-scrollbar': {
+            display: 'none', /* Hide scrollbar for Webkit browsers */
+          },
+        },
+      });
+    },
+  ]
 }
 

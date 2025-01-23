@@ -10,7 +10,7 @@ import StockCard from "../custom-components/StockCard";
 const StockContests = [
   {
     title: "Spotify",
-    img_src:spotifyIcon,
+    img_src: spotifyIcon,
     desc: "SPOT ",
     Stock_id: "1,193.09",
     Stock_id_desc: "6.42%",
@@ -19,7 +19,7 @@ const StockContests = [
   },
   {
     title: "Tata Motors",
-    img_src:tataIcon,
+    img_src: tataIcon,
     desc: "TATA",
     Stock_id: "1,193.09",
     Stock_id_desc: "6.42%",
@@ -28,7 +28,7 @@ const StockContests = [
   },
   {
     title: "Spotify",
-    img_src:spotifyIcon,
+    img_src: spotifyIcon,
     desc: "SPOT ",
     Stock_id: "1,193.09",
     Stock_id_desc: "6.42%",
@@ -37,7 +37,7 @@ const StockContests = [
   },
   {
     title: "Tata Motors",
-    img_src:tataIcon,
+    img_src: tataIcon,
     desc: "TATA",
     Stock_id: "1,193.09",
     Stock_id_desc: "6.42%",
@@ -46,7 +46,7 @@ const StockContests = [
   },
   {
     title: "Spotify",
-    img_src:spotifyIcon,
+    img_src: spotifyIcon,
     desc: "SPOT ",
     Stock_id: "1,193.09",
     Stock_id_desc: "6.42%",
@@ -55,7 +55,7 @@ const StockContests = [
   },
   {
     title: "Tata Motors",
-    img_src:tataIcon,
+    img_src: tataIcon,
     desc: "TATA",
     Stock_id: "1,193.09",
     Stock_id_desc: "6.42%",
@@ -64,7 +64,7 @@ const StockContests = [
   },
   {
     title: "Spotify",
-    img_src:spotifyIcon,
+    img_src: spotifyIcon,
     desc: "SPOT ",
     Stock_id: "1,193.09",
     Stock_id_desc: "6.42%",
@@ -73,7 +73,7 @@ const StockContests = [
   },
   {
     title: "Tata Motors",
-    img_src:tataIcon,
+    img_src: tataIcon,
     desc: "TATA",
     Stock_id: "1,193.09",
     Stock_id_desc: "6.42%",
@@ -82,24 +82,57 @@ const StockContests = [
   },
   {
     title: "Spotify",
-    img_src:spotifyIcon,
+    img_src: spotifyIcon,
     desc: "SPOT ",
     Stock_id: "1,193.09",
     Stock_id_desc: "6.42%",
     price: "2,153.10",
     price_desc: "+.090%",
   },
-  
-  
-  
+  {
+    title: "Tata Motors",
+    img_src: tataIcon,
+    desc: "TATA",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Spotify",
+    img_src: spotifyIcon,
+    desc: "SPOT ",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Tata Motors",
+    img_src: tataIcon,
+    desc: "TATA",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
+  {
+    title: "Spotify",
+    img_src: spotifyIcon,
+    desc: "SPOT ",
+    Stock_id: "1,193.09",
+    Stock_id_desc: "6.42%",
+    price: "2,153.10",
+    price_desc: "+.090%",
+  },
 ];
 
 const MyStocks = () => {
   return (
-    <section className="  bg-white w-[28rem]  h-[43.625rem] py-4 font-sans flex flex-col ">
+    <section className="  bg-white w-[28rem] h-[43.625rem]   py-4 font-sans flex flex-col ">
       <div className=" px-5  text-2xl font-bold">My Stocks</div>
 
-      <div className="px-5 py-3">
+      <div className="px-8 py-3">
         <div className="searchbar flex w-[23.813rem] h-[3rem] p-2 gap-3 items-center bg-white rounded-[0.15rem] border border-[#8A8A8A] ">
           <img src={searchIcon} alt="" />
           <input
@@ -125,31 +158,20 @@ const MyStocks = () => {
         </button>
 
         <button className="text-[1rem] flex items-center  ">
-        ID Change
-        <img src={unDownIcon} alt="" />
-      </button>
-      <button className="text-[1rem] flex items-center  ">
-        Price
-        <img src={unDownIcon} alt="" />
-      </button>
+          ID Change
+          <img src={unDownIcon} alt="" />
+        </button>
+        <button className="text-[1rem] flex items-center  ">
+          Price
+          <img src={unDownIcon} alt="" />
+        </button>
       </div>
-      
-      
-     <div>
+
+      <div className="max-h-[35rem] overflow-y-scroll overflow-x-hidden scroll-smooth scrollbar-none">
         {StockContests.map((challenge, index) => (
           <StockCard key={index} data={challenge} index={index} />
         ))}
-      </div>  
-      
-
-      
-
-
-
-
-     
-
-
+      </div>
     </section>
   );
 };

@@ -89,7 +89,7 @@ function Footer() {
   //   };
 
   return (
-    <section className="flex items-center bg-white w-[28rem] h-[5rem] gap-5 pl-3 rounded-b-[1.7rem] border ">
+    <section className="flex items-center  bg-white w-[28rem] h-[5rem] gap-5 pl-3 rounded-b-[1.7rem] border ">
       <div className="tabs  flex w-[26rem] justify-between gap-1 font-sans font-medium text-xs">
         <NavLink
           to="/"
@@ -126,12 +126,12 @@ function Footer() {
           <span>MY STOCKS</span>
         </NavLink>
 
-        <NavLink className="flex flex-col items-center font-sans font-medium text-xs">
+        <NavLink to="/followers" className="flex flex-col items-center font-sans font-medium text-xs">
           <img src={followersIcon} alt="followers" />
           <span>FOLLOWERS</span>
         </NavLink>
 
-        <NavLink className="flex flex-col items-center font-sans font-medium text-xs">
+        <NavLink to="/stats" className="flex flex-col items-center font-sans font-medium text-xs">
           <img src={statsIcon} alt="stats" />
           <span>STATS</span>
         </NavLink>

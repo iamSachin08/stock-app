@@ -4,7 +4,7 @@ function HomeInput({dateIcon,homeIpLabels}) {
 
   const [inputValue, setInputValue] = useState("");
   const handleChange = (event) => {
-        setInputValue(event.target.value); // Updates state on input change
+        setInputValue(event.target.value); 
       };
 
   return (

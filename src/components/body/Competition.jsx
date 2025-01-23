@@ -33,7 +33,7 @@ const weeklyChallenges = [
 
 const Competition = () => {
   return (
-    <section className="  bg-white w-[28rem]  h-[43.625rem] items-center  font-sans flex flex-col ">
+    <section className="  bg-white w-[28rem]   items-center  font-sans flex flex-col ">
       <div className=" ml-[-14rem] text-2xl  p-3 font-bold">Competitions</div>
 
       <div className="w-[23.813rem]   font-medium flex justify-between items-center">
