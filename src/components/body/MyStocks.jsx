@@ -8,7 +8,7 @@ import { StockContests } from "../Data/mystock";
 
 const MyStocks = () => {
   return (
-    <section className="  bg-white w-[28rem] h-[43.625rem]   py-4 font-sans flex flex-col ">
+    <section className="  bg-white w-[27.438rem] h-[43.625rem]   py-4 font-sans flex flex-col ">
       <div className=" px-5  text-2xl font-bold">My Stocks</div>
 
       <div className="px-8 py-3">

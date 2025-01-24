@@ -22,7 +22,7 @@ const handleInputChange = (index, newValue) => {
   setHomeInputs(updatedInputs);
 };
   return (
-    <section className="bg-white  w-[28rem] h-[698px] overflow-y-auto rounded-md shadow-md">
+    <section className="bg-white  w-[27.438rem] h-[698px] overflow-y-auto rounded-md shadow-md">
       <div className="px-6 py-3 text-2xl font-bold">Post</div>
 
       <div className="flex flex-col items-center font-sans font-medium px-4">

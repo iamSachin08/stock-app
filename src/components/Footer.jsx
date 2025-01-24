@@ -9,7 +9,7 @@ import statsIcon from "../assets/gridicons_stats-alt-2.svg";
 
 function Footer() {
   return (
-    <section className="fixed bottom-0 left-0 w-[28rem] bg-white border-t shadow-md md:relative md:w-[28rem] md:rounded-b-[1.7rem]">
+    <section className="fixed bottom-0 left-0 w-[27.438rem] bg-white border-t shadow-md md:relative md:w-[27.438rem] md:rounded-b-[1.7rem]">
       <div className="flex justify-between items-center w-full max-w-lg mx-auto py-3 px-4 md:py-4">
         <NavLink
           to="/"

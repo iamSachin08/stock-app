@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <section className="flex items-center bg-[#3C78D8] w-[28rem] h-[5rem] gap-5 pl-3 pr-3 rounded-t-[1.7rem]">
+    <section className="flex items-center bg-[#3C78D8] w-[27.438rem] h-[5rem] gap-5 pl-3 pr-3 rounded-t-[1.7rem]">
       
       
       <div className="flex items-center gap-5">

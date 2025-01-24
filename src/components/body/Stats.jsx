@@ -19,7 +19,7 @@ const Stats = () => {
   };
   
     return (
-      <section className="bg-white w-[28rem] py-4 font-sans flex flex-col">
+      <section className="bg-white w-[27.438rem] py-4 font-sans flex flex-col">
         <div className="flex w-full border-b">
           <button
             className={`flex-1 text-[1.25rem] font-medium py-2 ${
