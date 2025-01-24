@@ -2,34 +2,9 @@ import React from "react";
 import arrowIcon from "../../assets/iconamoon_arrow-up-2-thin.svg";
 import CompetitionCard from "../custom-components/CompetitionCard";
 
-const megaContests = [
-  {
-    time: "Today, 7:30 PM",
-    participants: "1.5k",
-    highestGain: "150%",
-    endsIn: "4h 36m",
-  },
-  {
-    time: "Today, 8:00 PM",
-    participants: "1.7k",
-    highestGain: "160%",
-    endsIn: "3h 45m",
-  },
-];
-const weeklyChallenges = [
-  {
-    time: "Today, 8:00 PM",
-    participants: "2.1k",
-    highestGain: "180%",
-    endsIn: "6h 20m",
-  },
-  {
-    time: "Today, 8:00 PM",
-    participants: "2.5k",
-    highestGain: "190%",
-    endsIn: "5h 50m",
-  },
-];
+import { megaContests } from "../Data/competition";
+import { weeklyChallenges } from "../Data/competition";
+
 
 const Competition = () => {
   return (
@@ -49,7 +24,7 @@ const Competition = () => {
         ))}
       </div>
 
-      {/* Weekly Challenge Section */}
+     
       <div className="w-[23.813rem] font-medium flex justify-between items-center mt-4">
         <span className="text-[1rem] font-medium">Monthly Challenge</span>
         <button className="text-[0.875rem] flex items-center text-[#00D789]">
