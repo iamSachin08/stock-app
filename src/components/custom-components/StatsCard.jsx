@@ -19,10 +19,10 @@ const StatsCard = ({ data }) => {
         </span>
         <span className="font-bold text-sm text-[#00D789]">10.12%</span>
         <button
-          className={`bg-[${data.tColor}] text-white h-[2.25rem]  w-[4.938rem] rounded-sm `}
-        >
-          {data.buttonText}
-        </button>
+  className={`${data.tColor} text-white h-[2.25rem] w-[4.938rem] rounded-sm`}
+>
+  {data.buttonText}
+</button>
       </div>
     </div>
   );

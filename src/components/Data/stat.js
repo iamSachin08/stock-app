@@ -10,7 +10,7 @@ export const MostActiveContests = [
       Icon2:UdIcon,
       gain:"10.12%",
       buttonText:"BUY",
-      tColor:"#00D789"
+      tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -18,7 +18,7 @@ export const MostActiveContests = [
       Icon2:DIcon,
       gain:"10.12%",
       buttonText:"SELL",
-      tColor:"#D70027"
+      tColor:"bg-red-600"
     },
     {
       icon: Icon,
@@ -26,7 +26,7 @@ export const MostActiveContests = [
       Icon2:UdIcon,
       gain:"10.12%",
       buttonText:"BUY",
-      tColor:"#00D789"
+         tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -34,7 +34,7 @@ export const MostActiveContests = [
       Icon2:DIcon,
       gain:"10.12%",
       buttonText:"SELL",
-      tColor:"#D70027"
+      tColor:"bg-red-600"
     },
     ,
     {
@@ -43,7 +43,7 @@ export const MostActiveContests = [
       Icon2:UdIcon,
       gain:"10.12%",
       buttonText:"BUY",
-      tColor:"#00D789"
+        tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -51,7 +51,7 @@ export const MostActiveContests = [
       Icon2:DIcon,
       gain:"10.12%",
       buttonText:"SELL",
-      tColor:"#D70027"
+      tColor:"bg-red-600"
     },
     ,
     {
@@ -60,7 +60,7 @@ export const MostActiveContests = [
       Icon2:UdIcon,
       gain:"10.12%",
       buttonText:"BUY",
-      tColor:"#00D789"
+        tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -68,7 +68,7 @@ export const MostActiveContests = [
       Icon2:DIcon,
       gain:"10.12%",
       buttonText:"SELL",
-      tColor:"#D70027"
+     tColor:"bg-red-600"
     },
     {
       icon: Icon,
@@ -76,7 +76,7 @@ export const MostActiveContests = [
       Icon2:UdIcon,
       gain:"10.12%",
       buttonText:"BUY",
-      tColor:"#00D789"
+        tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -84,14 +84,14 @@ export const MostActiveContests = [
       Icon2:DIcon,
       gain:"10.12%",
       buttonText:"SELL",
-      tColor:"#D70027"
+      tColor:"bg-red-600"
     }, {
       icon: Icon,
       title: "HDFC BANK",
       Icon2:UdIcon,
       gain:"10.12%",
       buttonText:"BUY",
-      tColor:"#00D789"
+        tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -99,7 +99,7 @@ export const MostActiveContests = [
       Icon2:DIcon,
       gain:"10.12%",
       buttonText:"SELL",
-      tColor:"#D70027"
+      tColor:"bg-red-600"
     },
   
      
@@ -114,7 +114,7 @@ export const MostActiveContests = [
       per2:"(+0.90)",
       Icon2:UdIcon,
       buttonText:"BUY",
-      tColor:"#00D789"
+         tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -124,7 +124,7 @@ export const MostActiveContests = [
       per2:"(-0.30)",
       Icon2:DIcon,
       buttonText:"SELL",
-      tColor:"#D70027"
+      tColor:"bg-red-600"
     },
     {
       icon: Icon,
@@ -134,7 +134,7 @@ export const MostActiveContests = [
       per2:"(+0.90)",
       Icon2:UdIcon,
       buttonText:"BUY",
-      tColor:"#00D789"
+         tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -144,7 +144,7 @@ export const MostActiveContests = [
       per2:"(-0.30)",
       Icon2:DIcon,
       buttonText:"SELL",
-      tColor:"#D70027"
+      tColor:"bg-red-600"
     },
     {
       icon: Icon,
@@ -154,7 +154,7 @@ export const MostActiveContests = [
       per2:"(+0.90)",
       Icon2:UdIcon,
       buttonText:"BUY",
-      tColor:"#00D789"
+         tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -164,7 +164,7 @@ export const MostActiveContests = [
       per2:"(-0.30)",
       Icon2:DIcon,
       buttonText:"SELL",
-      tColor:"#D70027"
+    tColor:"bg-red-600"
     },{
       icon: Icon,
       title: "HDFC BANK",
@@ -173,7 +173,7 @@ export const MostActiveContests = [
       per2:"(+0.90)",
       Icon2:UdIcon,
       buttonText:"BUY",
-      tColor:"#00D789"
+         tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -183,7 +183,7 @@ export const MostActiveContests = [
       per2:"(-0.30)",
       Icon2:DIcon,
       buttonText:"SELL",
-      tColor:"#D70027"
+      tColor:"bg-red-600"
     },{
       icon: Icon,
       title: "HDFC BANK",
@@ -192,7 +192,7 @@ export const MostActiveContests = [
       per2:"(+0.90)",
       Icon2:UdIcon,
       buttonText:"BUY",
-      tColor:"#00D789"
+         tColor:"bg-emerald-500"
     },
     {
       icon: Icon2,
@@ -202,7 +202,7 @@ export const MostActiveContests = [
       per2:"(-0.30)",
       Icon2:DIcon,
       buttonText:"SELL",
-      tColor:"#D70027"
+      tColor:"bg-red-600"
     },
     
   ]

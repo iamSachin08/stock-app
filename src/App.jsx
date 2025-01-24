@@ -10,8 +10,8 @@ import Stats from "./components/body/Stats";
 function App() {
   return (
 
-<div  >
-      <div>
+
+      <>
       <Router>
         <Header />
         <Routes>
@@ -25,8 +25,8 @@ function App() {
         <Footer />
         </Router>
         
-      </div>
-    </div>
+      </>
+    
   );
 }
 

@@ -19,7 +19,7 @@ const Followers = () => {
   };
 
   return (
-    <section className="bg-white w-[28rem]   py-3 font-sans flex flex-col">
+    <section className="bg-white w-[28rem] h-[45rem]   py-3 font-sans flex flex-col">
       <div className="flex w-full border-b ">
         <button
           className={`flex-1 text-[1.25rem] font-medium py-2 ${
@@ -44,7 +44,7 @@ const Followers = () => {
         </button>
       </div>
         
-      <div className="p-6  max-h-[35rem] overflow-y-scroll overflow-x-hidden scroll-smooth scrollbar-none">
+      <div className="  h-full overflow-y-scroll overflow-x-hidden scroll-smooth scrollbar-none">
         {displayData.map((challenge, index) => (
           <FollowCard key={index} data={challenge} />
         ))}

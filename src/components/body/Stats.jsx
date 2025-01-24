@@ -44,7 +44,7 @@ const Stats = () => {
           </button>
         </div>
 
-        <div className="flex flex-col items-center py-4 max-h-[35rem] overflow-y-scroll overflow-x-hidden scroll-smooth scrollbar-none">
+        <div className="flex flex-col items-center py-4 max-h-[37rem] overflow-y-scroll overflow-x-hidden scroll-smooth scrollbar-none">
         {displayData.map((challenge, index) => (
           activeTab === "mostActiveTips" ? (
             <StatsCard key={index} data={challenge} />
