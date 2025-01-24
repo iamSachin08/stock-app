@@ -10,7 +10,7 @@ import Stats from "./components/body/Stats";
 function App() {
   return (
 
-<div className="flex justify-center" >
+<div  >
       <div>
       <Router>
         <Header />
