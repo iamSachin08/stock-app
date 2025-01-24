@@ -1,3 +1,4 @@
+
 import React from "react";
 import hdfcIcon from "../../assets/HDB-bb6241fe 1.svg";
 import cancelIcon from "../../assets/ic_baseline-close.svg";
@@ -16,60 +17,52 @@ const Home = () => {
     stopLoss: "Stop Loss",
     expiringBy: "Expiring By",
   };
-  return (
-    <section className="  bg-white w-[28rem] h-[43.625rem]   ">
-      <div className="w-100 pl-6 text-2xl  p-3 font-bold">Post</div>
 
-      <div className="font-sans font-medium flex justify-center flex-col items-center ">
-        <div className=" w-[24.813rem] h-[3.125rem] flex items-center justify-between bg-white  border border-[#8A8A8A] rounded-[0.188rem] p-2">
-          <div className="flex items-center justify-between gap-2  ">
-            <img
-              src={hdfcIcon}
-              alt="HDFC Bank"
-              className="w-[1.875rem] rounded-full"
-            />
+  return (
+    <section className="bg-white w-full max-w-[28rem] h-[698px] overflow-y-auto rounded-md shadow-md">
+     
+      <div className="px-6 py-3 text-2xl font-bold">Post</div>
+
+      <div className="flex flex-col items-center font-sans font-medium px-4">
+        
+       
+        <div className="w-full flex items-center justify-between bg-white border border-gray-400 rounded-sm h-[3.125rem] p-2">
+          <div className="flex items-center gap-2">
+            <img src={hdfcIcon} alt="HDFC Bank" className="w-8 rounded-full" />
             <div>
-              <span className="pl-2 text-[#7E7777]">HDFC BANK</span>
-              <div className="pl-2 flex ">
+              <span className="text-gray-600">HDFC BANK</span>
+              <div className="flex items-center gap-1">
                 <span>14,500.65</span>
-                <span className="">
-                  <img src={midArrow} alt="" />
-                </span>
-                <span className="text-[#00D789]">+0.12% (+0.60)</span>
+                <img src={midArrow} alt="Arrow" />
+                <span className="text-green-500">+0.12% (+0.60)</span>
               </div>
             </div>
           </div>
-          <button className="">
-            <img src={cancelIcon} alt="" className="w-[1.25rem]" />
+          <button>
+            <img src={cancelIcon} alt="Close" className="w-5" />
           </button>
         </div>
 
-        <div className="w-[24.813rem] h-[3.125rem]  flex items-center justify-center gap-8   ">
-          <button className="w-[11.5rem] h-[2.25rem] bg-[#D70027] text-white rounded-[0.188rem]">
+        <div className="w-full flex items-center justify-center gap-4 my-3">
+          <button className="w-1/2 h-10 bg-red-600 text-white rounded-md">
             SELL
           </button>
-          <button className="w-[11.5rem] h-[2.25rem] bg-[#00D789] text-white rounded-[0.188rem]">
+          <button className="w-1/2 h-10 bg-green-500 text-white rounded-md">
             BUY
           </button>
         </div>
 
-        <div className="w-[24.813rem] h-[14.188rem] mt-1  ">
+        {/* Input Fields */}
+        <div className="w-full flex flex-col gap-2">
           <HomeInput />
           <HomeInput />
           <HomeInput dateIcon={dateIcon} labels={homeIpLabels} />
         </div>
 
-
-        
-
-        <div className="pt-5 border-[0.063rem]  rounded-md p-3 mb-4 w-full">
-          <div className="flex item-start justify-center space-x-3">
-            <img
-              src={Icon}
-              alt="Profile"
-              className="w-[2.188rem] h-[2.188rem] rounded-full "
-            />
-
+      
+        <div className="w-full border-b border-t  p-8 mt-4">
+          <div className="flex items-start gap-3">
+            <img src={Icon} alt="Profile" className="w-10 h-10 rounded-full" />
             <textarea
               placeholder="What's happening?"
               className="w-full resize-none border-none focus:ring-0 text-lg bg-transparent outline-none"
@@ -77,36 +70,30 @@ const Home = () => {
             ></textarea>
           </div>
 
-          
-          
-
-          <div className=" p-10 text-gray-500">
-            
-            <div className="flex space-x-3 justify-end  items-center">
-              <button className=" rounded-full hover:bg-gray-200">
-                <img src={docIcon} alt="" />
-              </button>
-              <button className="rounded-full hover:bg-gray-200">
-                <img src={gallIcon} alt="" />
-              </button>
-              <button className="rounded-full hover:bg-gray-200">
-                <img src={gifIcon} alt="" />
-              </button>
-              <button className="rounded-full hover:bg-gray-200">
-                <img src={EmojiIcon} alt="" />
-              </button>
-            </div>
-
+          {/* Icon Buttons */}
+          <div className="flex justify-end gap-3 mt-3 ">
+            <button className="hover:bg-gray-200 rounded-full p-2">
+              <img src={docIcon} alt="Attach" />
+            </button>
+            <button className="hover:bg-gray-200 rounded-full p-2">
+              <img src={gallIcon} alt="Gallery" />
+            </button>
+            <button className="hover:bg-gray-200 rounded-full p-2">
+              <img src={gifIcon} alt="GIF" />
+            </button>
+            <button className="hover:bg-gray-200 rounded-full p-2">
+              <img src={EmojiIcon} alt="Emoji" />
+            </button>
           </div>
-
         </div>
-        {/* <div className=" w-full border-[0.063rem]  "></div> */}
 
-       <div className="pt-3">
-       <button className="w-[23.688rem] h-[3.125rem] bg-blue-500 text-white    rounded-md font-medium">
-          POST
-        </button>
-       </div>
+        {/* Post Button */}
+        <div className="w-full mt-10">
+          <button className="w-full h-12 bg-blue-500 text-white rounded-md font-medium">
+            POST
+          </button>
+        </div>
+
       </div>
     </section>
   );

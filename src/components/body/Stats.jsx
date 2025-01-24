@@ -219,7 +219,7 @@ const Stats = () => {
     setActiveTab(tab);
     console.log("the tab",tab)
     setDisplayData(tab === "mostActiveTips" ? MostActiveContests : tab === "highestGainTips" ? highestGainTipsContests: '');
-    // setDisplayData(tab === "followers" ? FollowerContests : FollowingContests);
+    
 
   };
   

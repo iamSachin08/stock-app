@@ -151,7 +151,7 @@ const MyStocks = () => {
         </div>
       </div>
 
-      <div className="  bg-[#F9F9F9] flex items-center justify-around py-3 gap-6 ">
+      <div className="  bg-[#F9F9F9] flex items-center justify-around py-3 gap-6 w-full ">
         <button className="text-[1rem] flex items-center  ">
           Company Name
           <img src={unDownIcon} alt="" />

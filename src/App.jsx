@@ -7,10 +7,10 @@ import Competitions from "./components/body/Competition";
 import MyStocks from "./components/body/MyStocks";
 import Followers from "./components/body/Followers";
 import Stats from "./components/body/Stats";
-// className="flex justify-center bg-gray-600"
 function App() {
   return (
-    <div >
+
+<div className="flex justify-center" >
       <div>
       <Router>
         <Header />

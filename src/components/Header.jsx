@@ -21,7 +21,7 @@ function Header() {
         </div>
         {!isSearchActive && (
           <div>
-            <img src={Icon} alt="Placeholder Icon" />
+            <img src={Icon} alt=" Icon" />
           </div>
         )}
       </div>
@@ -36,12 +36,12 @@ function Header() {
             />
           </div>
         ) : (
-          <div className="flex items-center  cursor-pointer">
+          <div className="flex ml-[7rem] gap-4   cursor-pointer ">
             <img
               onClick={handleSearchClick}
               src={searchIcon}
               alt="Search Icon"
-              className="px-10  text-white"
+              className=" text-white"
             />
             <img
               src={baseIcon}
